@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SearchBar from './vis-components/search_bar';
+import API_KEY from './vis-components/API'
 // import './index.css';
 //import App from './App';
 
@@ -12,5 +13,5 @@ const App = () =>{
     )
 }
 
-const API_KEY = 'AIzaSyCJ8xgweYPJfYuCzP0kdg34rn1LKB3w3Tk';
+
 ReactDOM.render(<App />, document.getElementById('root'));
