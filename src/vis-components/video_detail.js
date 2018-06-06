@@ -6,7 +6,7 @@ if(!video){
 }
 
 const videoId = video.id.videoId;
-const url = 'https://youtube.com/embed/' + videoId + '?autoplay=1';
+const url = 'https://youtube.com/embed/' + videoId ;
 
 return(
 
