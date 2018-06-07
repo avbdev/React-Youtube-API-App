@@ -1,28 +1,30 @@
-.container-fluid{
+.container-fluid {
   background: #252527;
 }
-.search-bar{
+
+.search-bar {
   margin: 12px;
   text-align: center;
-  
 }
-.search-bar ::-webkit-input-placeholder{
-  padding-right:10px;
+
+.search-bar ::-webkit-input-placeholder {
+  padding-right: 10px;
   font-size: 20px;
-  
 }
-.search-bar [placeholder]:focus::-webkit-input-placeholder{
-  transition: text-indent 2.87s 0.50s ease; 
+
+.search-bar [placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 2.87s 0.50s ease;
   text-indent: -100%;
   opacity: 1;
   color: white;
 }
-.search-bar input{
+
+.search-bar input {
   color: white;
   padding-left: 10px;
   font-size: 20px;
   z-index: auto;
-  width:42%;
+  width: 42%;
   margin-right: 102px;
   border: none;
   background: #252527;
@@ -31,61 +33,67 @@
   -webkit-transition: width .35s ease-in-out !important;
   transition: width .35s ease-in-out !important;
 }
-.search-bar input:focus{
+
+.search-bar input:focus {
   width: 60%;
   border-bottom: 2.5px solid hsl(20, 100%, 50%);
   -webkit-animation: anim-1 0.3s forwards;
-	animation: anim-1 0.3s forwards;
+  animation: anim-1 0.3s forwards;
 }
-.video-item img{
+
+.video-item img {
   max-width: 64px;
 }
 
-.video-detail .details{
+.video-detail .details {
   margin-top: 10px;
   padding: 10px;
   color: white;
- 
 }
 
-.list-group-item{
-  cursor:pointer;
+.list-group-item {
+  cursor: pointer;
   border: none;
   background: #252527;
 }
 
-.list-group-item:hover{
+.list-group-item:hover {
   background-color: #555556;
 }
 
-.col-md-8{
+.col-md-8 {
   padding-top: 40px;
 }
-.col-md-4{
+
+.col-md-4 {
   padding-top: 30px;
-  
   color: white;
 }
-.container-fluid{
+
+.container-fluid {
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
-.navbar{
+
+.navbar {
   box-shadow: 0px 1px 20px 5px black;
   border-radius: 0px;
   height: 74px;
-  background:#252527;
+  background: #252527;
 }
-.navbar-brand{
+
+.navbar-brand {
   padding-top: 0.75rem;
   font-family: "Lobster", serif;
   color: white;
 }
-div.navbar-brand> img {
+
+div.navbar-brand>img {
   max-width: 100%;
   max-height: 100%;
 }
-.potrait{
+
+.potrait {
   height: 50px;
   width: 80px;
   margin-top: -10px;
