@@ -37,16 +37,6 @@
   -webkit-animation: anim-1 0.3s forwards;
 	animation: anim-1 0.3s forwards;
 }
-/* .search-bar input:hover{
-  border-bottom: 2px solid hsl(200, 100%, 50%);;
-  
-}  */
-/* .search-bar input[focus] :hover{
-  width: 60%;
-  border-bottom: 2.5px solid hsl(20, 100%, 50%);
-  -webkit-animation: anim-1 0.3s forwards;
-	animation: anim-1 0.3s forwards;
-} */
 .video-item img{
   max-width: 64px;
 }
@@ -55,8 +45,7 @@
   margin-top: 10px;
   padding: 10px;
   color: white;
-  /* border: none;
-  border-radius:4px; */
+ 
 }
 
 .list-group-item{
@@ -101,10 +90,4 @@ div.navbar-brand> img {
   width: 80px;
   margin-top: -10px;
   margin-left: 15px;
-}
-.landscape{
-
-}
-.square{
-
 }
