@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import VisLogo from '../youtube.png'
 
 class SearchBar extends Component{
   constructor(props){
@@ -9,12 +10,25 @@ class SearchBar extends Component{
 
   render(){
     return(
+      <nav className="navbar navbar-default">
+      
+         <div className="navbar-header">
+            <div className="navbar-brand">
+             <a href="http://localhost:3000"><img className="potrait" aria-label="Visioniod Logo" src={VisLogo} alt="Visioniod Logo" /></a>
 
-      <div className="search-bar">
-      <input
-      value = {this.state.term}
-      onChange = {event => this.onInputChange(event.target.value) } placeholder="Search" />
-      </div>
+             </div>
+             
+         </div>
+      <ul className="nav navbar-nav">
+         <div className="search-bar">
+            <input
+               value = {this.state.term}
+               onChange = {event => this.onInputChange(event.target.value) } placeholder="Search" />
+         </div>
+      </ul>
+   
+</nav>
+      
     );
   }
 

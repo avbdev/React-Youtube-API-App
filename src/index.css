@@ -1,26 +1,52 @@
-
+.container-fluid{
+  background: #252527;
+}
 .search-bar{
   margin: 12px;
   text-align: center;
-
+  
 }
 .search-bar ::-webkit-input-placeholder{
-  padding:10px;
+  padding-right:10px;
+  font-size: 20px;
+  
+}
+.search-bar [placeholder]:focus::-webkit-input-placeholder{
+  transition: text-indent 2.87s 0.50s ease; 
+  text-indent: -100%;
+  opacity: 1;
+  color: white;
 }
 .search-bar input{
+  color: white;
+  padding-left: 10px;
+  font-size: 20px;
   z-index: auto;
   width:42%;
   margin-right: 102px;
-  border: 0;
-  border-bottom: 1px solid black;
+  border: none;
+  background: #252527;
+  border-bottom: 2px solid white;
   outline: none;
-
+  -webkit-transition: width .35s ease-in-out !important;
+  transition: width .35s ease-in-out !important;
 }
-/* .search-bar input:after{
-  box-shadow: 1px 1px;
-  border-style: inherit;
+.search-bar input:focus{
+  width: 60%;
+  border-bottom: 2.5px solid hsl(20, 100%, 50%);
+  -webkit-animation: anim-1 0.3s forwards;
+	animation: anim-1 0.3s forwards;
+}
+/* .search-bar input:hover{
+  border-bottom: 2px solid hsl(200, 100%, 50%);;
+  
+}  */
+/* .search-bar input[focus] :hover{
+  width: 60%;
+  border-bottom: 2.5px solid hsl(20, 100%, 50%);
+  -webkit-animation: anim-1 0.3s forwards;
+	animation: anim-1 0.3s forwards;
 } */
-
 .video-item img{
   max-width: 64px;
 }
@@ -28,15 +54,57 @@
 .video-detail .details{
   margin-top: 10px;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius:4px;
+  color: white;
+  /* border: none;
+  border-radius:4px; */
 }
 
 .list-group-item{
   cursor:pointer;
   border: none;
+  background: #252527;
 }
 
 .list-group-item:hover{
-  background-color: #eee;
+  background-color: #555556;
+}
+
+.col-md-8{
+  padding-top: 40px;
+}
+.col-md-4{
+  padding-top: 30px;
+  
+  color: white;
+}
+.container-fluid{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.navbar{
+  box-shadow: 0px 1px 20px 5px black;
+  border-radius: 0px;
+  height: 74px;
+  background:#252527;
+}
+.navbar-brand{
+  padding-top: 0.75rem;
+  font-family: "Lobster", serif;
+  color: white;
+}
+div.navbar-brand> img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.potrait{
+  height: 50px;
+  width: 80px;
+  margin-top: -10px;
+  margin-left: 15px;
+}
+.landscape{
+
+}
+.square{
+
 }
