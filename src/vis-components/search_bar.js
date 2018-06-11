@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import VisLogo from '../youtube.png'
+import VisLogo from '../visioniod.png'
 
 class SearchBar extends Component{
   constructor(props){
